@@ -1,0 +1,10 @@
+
+/* selects all h1 tags in the document  */
+h1 {
+  background-color: crimson;
+}
+
+/* selects all p tags within the document */
+p {
+  background-color: yellowgreen;
+}
