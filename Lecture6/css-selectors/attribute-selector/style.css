@@ -1,0 +1,53 @@
+/* selects all anchor tags
+  having href attribute equals to
+  http://fb.com    
+*/
+a[href='http://fb.com'] {
+  background-color: lightcoral;
+}
+
+a[href='http://google.com'] {
+  color: darkmagenta;
+}
+
+/*
+  select all input elements
+  whose type attribute is text
+*/
+input[type='text'] {
+  background-color: red;;
+}
+
+input[type='number'] {
+  background-color: blue;
+}
+
+/* selects all input having disabled attribute
+*/
+input[disabled] {
+  background-color: green;
+}
+
+
+/*select all anchor tag
+  whose href attribute starts with 'https'
+*/
+a[href^='https'] {
+  background-color: aquamarine;
+}
+
+/*
+  selects all anchor elements
+  whose href attribute ends with '.in'
+*/
+a[href$='.in'] {
+  background-color: blue;
+}
+
+/* selects all anchor tags whose attributue contains 'fb'*/
+a[href*='fb'] {
+  font-size: 40px;
+}
+
+
+
