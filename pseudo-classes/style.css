@@ -8,7 +8,7 @@ div:hover {
   background-color: blue;
 }
 
-input {
+/* input {
   background-color: red;
 }
 
@@ -22,7 +22,7 @@ input:focus {
 
 input:active {
   background-color: yellow;
-}
+} */
 
 li:first-child {
   background-color: aqua;
@@ -39,3 +39,7 @@ p::first-letter {
 p::first-line {
   color: blue;
 } 
+
+input::placeholder {
+  color: royalblue;
+}
