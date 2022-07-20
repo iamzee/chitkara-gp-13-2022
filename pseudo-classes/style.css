@@ -1,0 +1,41 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+div:hover {
+  background-color: blue;
+}
+
+input {
+  background-color: red;
+}
+
+input:hover {
+  background-color: blue;
+}
+
+input:focus {
+  background-color: green;
+}
+
+input:active {
+  background-color: yellow;
+}
+
+li:first-child {
+  background-color: aqua;
+}
+
+ul:first-child {
+  background-color: red;
+}
+
+p::first-letter {
+  font-size: 48px;
+}
+
+p::first-line {
+  color: blue;
+} 
