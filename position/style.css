@@ -1,0 +1,33 @@
+.grandparent {
+  width: 80vw;
+  height: 70vh;
+  margin: 48px auto 100vh auto;
+  background-color: bisque;
+  padding: 48px;
+}
+
+.parent {
+  width: 80%;
+  height: 80%;
+  background-color: chartreuse;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  background-color: chocolate;
+  /* position: relative;
+  top: 100px;
+  left: 100px; */
+
+  /* position: absolute;
+  top: 100px; */
+
+  /* position: fixed;
+  top: 100px;
+  left: 100px; */
+
+  position: sticky;
+  top: 0px;
+  
+}
