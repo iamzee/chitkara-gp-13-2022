@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: dodgerblue;
+  /* transition-duration: 5s;
+  transition-property: all;
+  transition-delay: 3s;
+  transition-timing-function: ease-in; */
+
+  transition: all 5s ease-in 3s;
+}
+
+.box:hover {
+  border-radius: 50%;
+  background-color: deeppink;
+}
+
+.parent {
+  border: 5px solid black;
+}
+
+.parent:hover .child {
+  width: 90vw;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  transition-duration: 10s;
+  font-size: 24px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#child1{
+  background-color: teal;
+  transition-timing-function: linear;
+}
+
+#child2 {
+  background-color: dodgerblue;
+  transition-timing-function: ease-in;
+}
+
+#child3 {
+  background-color: darkgoldenrod;
+  transition-timing-function: ease-out;
+}
+
+#child4 {
+  background-color: darkorchid;
+  transition-timing-function: ease-in-out;
+}
