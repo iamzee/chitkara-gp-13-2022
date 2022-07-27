@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+}
+
+@media print {
+  .box {
+    background-color: green;
+  }
+}
+
+/* @media (width: 600px) {
+  .box {
+    background-color: blue;
+  }
+} */
+
+
+
+/*
+when viewport width is less than 900px
+*/
+/* @media (max-width: 900px) {
+  .box {
+    background-color: palegoldenrod;
+  }
+} */
+
+/* @media (max-width: 600px) {
+  .box {
+    background-color: palegreen;
+  }
+} */
+
+/*
+when viewport width is greater than 600px
+*/
+/* @media (min-width: 600px) {
+  .box {
+    background-color: darkblue;
+  }
+}
+
+@media (min-width: 900px) {
+  .box {
+    background-color: darkgray;
+  }
+} */
+
+@media (orientation: portrait) {
+  .box {
+    background-color: black;
+  }
+}
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+
+}
+
