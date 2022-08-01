@@ -1,0 +1,22 @@
+.box {
+    width: 200px;
+    height: 200px;
+    /* background-color: red; */
+    border-top: 20px solid palevioletred;
+    border-bottom: 20px solid #eee;
+    border-left: 20px solid #eee;
+    border-right: 20px solid #eee;
+
+    border-radius: 50%;
+
+    animation-name: spin;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
