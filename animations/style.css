@@ -19,7 +19,7 @@
     /* animation-delay: 5s;
     animation-fill-mode: backwards; */
 
-    animation: 5s ease-in 2s infinite normal forwards running kuchbhi
+    animation: 5s ease-in 2s infinite normal forwards running kuchbhi;
 }
 
 /* .box:hover {

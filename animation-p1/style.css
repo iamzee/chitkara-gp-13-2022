@@ -1,0 +1,19 @@
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    border: 5px solid darkblue;
+    border-radius: 50%;
+
+    animation-name: bounce;
+    animation-duration: 900ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+
+@keyframes bounce {
+    100% {
+        transform: translateY(540px);
+    }
+}
