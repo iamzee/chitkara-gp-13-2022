@@ -19,7 +19,7 @@ for (let btn of btns) {
       } catch {
         input.value = 'Invalid'
       }
-      
+      str += '';
     } else {
       str += btnText;
       input.value = str;
